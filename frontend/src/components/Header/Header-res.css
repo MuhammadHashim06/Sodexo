@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+@media screen and (max-width: 769px) {
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner {
+    flex-direction: column;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content {
+    padding-right: 0;
+    background-color: #F8E8D7;
+    padding: 8px;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content img {
+    width: 50%;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content {
+    padding-left: 0;
+    border: none;
+    width: 100%;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container .grid-row {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    row-gap: 20px;
+    column-gap: 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .sodexo-header-container .sodexo-header .sodexo-top-nav-container {
+    padding: 12px;
+  }
+  .sodexo-header-container .sodexo-header .sodexo-top-nav-container .sodexo-top-nav-hamburger p {
+    display: none;
+  }
+  .sodexo-header-container .sodexo-header .sodexo-top-nav-container .sodexo-top-nav-btn {
+    display: none;
+  }
+  .sodexo-header-container .sodexo-header .sodexo-top-nav-container .sodexo-top-nav-btn-mb {
+    width: 48px;
+    display: inline-block;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu {
+    padding: 10px !important;
+    width: 100%;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 92px;
+    padding-bottom: 12px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content {
+    padding-right: 0;
+    background-color: #F8E8D7;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    border-radius: 16px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content img {
+    width: 72px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content h3,
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content p {
+    font-size: 12px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-left-content a {
+    font-size: 14px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content {
+    padding-left: 0;
+    border: none;
+    width: 100%;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container {
+    margin-top: 35px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container .grid-row {
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container .grid-row .grid-item h3 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container .grid-row .grid-item ul {
+    display: none;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .grid-container .grid-row .grid-item .top-nav-sub-menu-active {
+    display: block;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .header-bottom-content {
+    flex-direction: column;
+    border-radius: 16px;
+  }
+  .sodexo-header-container .sodexo-header .dropdown-menu .dropdown-menu-inner .header-right-content .header-bottom-content .bottom-content {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=Header-res.css.map */

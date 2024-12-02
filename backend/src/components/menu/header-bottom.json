@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_menu_header_bottoms",
+  "info": {
+    "displayName": "HeaderBottom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bottomContent": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

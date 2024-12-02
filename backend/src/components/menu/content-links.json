@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_menu_content_links",
+  "info": {
+    "displayName": "ContentLinks",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contentMainTitle": {
+      "type": "string"
+    },
+    "Right_Content": {
+      "displayName": "Right_Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.right-content"
+    }
+  }
+}

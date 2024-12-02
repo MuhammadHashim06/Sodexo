@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_header_lefts",
+  "info": {
+    "displayName": "HeaderLeft",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftContent": {
+      "type": "blocks"
+    }
+  }
+}

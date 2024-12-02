@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_right_contents",
+  "info": {
+    "displayName": "Right_Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contentTitle": {
+      "type": "string"
+    },
+    "contentLink": {
+      "type": "string"
+    }
+  }
+}

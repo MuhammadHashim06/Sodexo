@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_menu_social_links",
+  "info": {
+    "displayName": "social link"
+  },
+  "options": {},
+  "attributes": {
+    "Facebook": {
+      "type": "string"
+    },
+    "Logo": {
+      "displayName": "Logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.logo"
+    }
+  }
+}

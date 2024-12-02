@@ -1,0 +1,251 @@
+@import '../../Var.scss';
+
+// header
+.sodexo-header-container {
+    width: 100%;
+    // position: fixed;
+    top: 0;
+    background-color: transparent;
+    z-index: 9;
+
+    .sodexo-header {
+        max-width: 1280px;
+        height: 80px;
+        margin: auto;
+        position: relative;
+        z-index: 9;
+
+        .sodexo-top-nav-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 48px;
+            position: relative;
+            z-index: 3;
+
+            .sodexo-top-nav-hamburger {
+                background-color: $Neutral-Cream;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 10px;
+                column-gap: 8px;
+                border-radius: $radius-small;
+                cursor: pointer;
+
+                img {
+                    width: 23px;
+                    height: 16px;
+                }
+
+                p {
+                    color: $Neutral-Aniseed;
+                    font-family: $poppins;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            .nav-menu-icon-active {
+                background-color: #FFFFFF;
+            }
+
+            .sodexo-top-nav-logo {
+                cursor: pointer;
+                width: 193px;
+            }
+
+            .header-top-content {
+                .title-images-container {
+                    .title-image-item:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+
+            .sodexo-top-nav-btn {
+                text-decoration: none;
+                font-family: $poppins;
+                color: $Neutral-Cream;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 12px 24px;
+                background-color: $Neutral-Aniseed;
+                border-radius: 1000px;
+            }
+
+            .sodexo-top-nav-btn-mb {
+                display: none;
+            }
+        }
+
+        .dropdown-menu {
+            background-color: $Neutral-Cream !important;
+            // width: 100vw;
+            // height: 765px;
+            margin: auto;
+            padding: 108px 48px 48px;
+            border-bottom-right-radius: 28px;
+            border-bottom-left-radius: 28px;
+            position: absolute;
+            top: -200vh;
+            // transform: translateY(-100%);
+            transition: .3s ease-in-out;
+            z-index: 2;
+            // left: -50%;
+
+            .dropdown-menu-inner {
+                display: flex;
+                align-items: flex-start;
+                // justify-content: center;
+                // width: 1184px;
+                width: auto;
+                margin: auto;
+
+                .header-left-content {
+                    padding-right: 72px;
+
+                    img {
+                        border-radius: 28px;
+                        width: 325px;
+                    }
+
+                    h3 {
+                        margin-top: 24px;
+                        font-family: $poppins;
+                        font-size: 24px;
+                        font-weight: 600;
+                        margin-bottom: 11px
+                    }
+
+                    p,
+                    a {
+                        font-family: $poppins;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                    }
+
+                    a {
+                        display: block;
+                        margin-top: 15px;
+                        color: $Neutral-Aniseed;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .header-right-content {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 72px;
+                    border-left: 1px solid #E0D9D3;
+
+                    .grid-container {
+                        .grid-row {
+                            display: grid !important;
+                            grid-template-columns: 25% 25% 25%;
+                            row-gap: 48px;
+                            column-gap: 65px;
+
+                            .grid-item {
+                                // width: 157px;
+                                width: 100%;
+
+                                h3 {
+                                    font-family: $poppins;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    color: $Neutral-Aniseed !important;
+                                }
+
+                                ul {
+                                    margin-top: 18px;
+
+                                    li {
+                                        list-style: none;
+
+                                        a {
+                                            font-family: $poppins;
+                                            font-size: 12px;
+                                            font-weight: 600;
+                                            line-height: 18px;
+                                            color: $Neutral-Aniseed !important;
+                                            text-decoration: none;
+                                            display: inline-block;
+                                            margin-top: 8px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .header-bottom-content {
+                        margin-top: 40px;
+                        background-color: #F3E6D9;
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        // height: 120px;
+                        padding: 8px 0 8px 24px;
+                        border-radius: 16px;
+
+                        .header-bottom-image-container {
+                            display: flex;
+                            flex-direction: row;
+                            position: relative;
+                            // width: 123px;
+                            width: auto;
+
+                            .header-bottom-image-item {
+                                img {
+                                    width: 82px !important;
+                                }
+                            }
+
+                            .header-bottom-image-item:nth-child(2) {
+                                position: relative;
+                                left: -36px;
+                            }
+                        }
+
+                        .bottom-content {
+                            padding-right: 24px;
+
+                            h3 {
+                                font-family: "Poppins", sans-serif;
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: $Neutral-Aniseed;
+                                // margin-bottom: 8px;
+                            }
+
+                            p,
+                            a {
+                                font-family: "Poppins", sans-serif;
+                                font-weight: 400;
+                                font-size: 14px;
+                            }
+
+                            a {
+                                display: inline-block;
+                                margin-top: 12px;
+                                color: $Neutral-Aniseed;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .dropdown-menu-active {
+            top: 0;
+            transform: translateY(0);
+        }
+    }
+}

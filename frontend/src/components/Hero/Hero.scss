@@ -1,0 +1,47 @@
+@import '../../Var.scss';
+
+// hero
+.sodexo-hero-container {
+    width: 100%;
+    height: 745px;
+    background-image: url('../../assets/Images/sodexo-hero-bg-img.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    top: -100px;
+
+    .sodexo-hero-inner {
+        width: 100%;
+        max-width: 1280px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin: auto;
+        padding-left: 75px;
+        padding-bottom: 85px;
+        flex-direction: column;
+
+        h1,
+        h2 {
+            color: #fff;
+            font-family: $poppins;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38px;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    }
+}

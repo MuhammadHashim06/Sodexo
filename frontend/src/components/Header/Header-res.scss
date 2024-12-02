@@ -1,0 +1,149 @@
+@import '../../Var.scss';
+
+// tablet
+@media screen and (max-width: 769px) {
+    .sodexo-header-container {
+        .sodexo-header {
+            .dropdown-menu {
+                .dropdown-menu-inner {
+                    flex-direction: column;
+
+                    .header-left-content {
+                        padding-right: 0;
+                        background-color: #F8E8D7;
+                        padding: 8px;
+                        border-radius: 16px;
+                        width: 100%;
+                        display: flex;
+                        gap: 16px;
+                        align-items: center;
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+
+                    .header-right-content {
+                        padding-left: 0;
+                        border: none;
+                        width: 100%;
+
+                        .grid-container {
+                            .grid-row {
+                                grid-template-columns: 1fr 1fr 1fr;
+                                margin-top: 20px;
+                                row-gap: 20px;
+                                column-gap: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// mobile
+@media screen and (max-width: 426px) {
+    .sodexo-header-container {
+        .sodexo-header {
+            .sodexo-top-nav-container {
+                padding: 12px;
+
+                .sodexo-top-nav-hamburger {
+                    p {
+                        display: none;
+                    }
+                }
+
+                .sodexo-top-nav-btn {
+                    display: none;
+                }
+
+                .sodexo-top-nav-btn-mb {
+                    width: 48px;
+                    display: inline-block;
+                }
+            }
+
+            .dropdown-menu {
+                padding: 10px !important;
+                width: 100%;
+
+                .dropdown-menu-inner {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    top: 92px;
+                    padding-bottom: 12px;
+
+                    .header-left-content {
+                        padding-right: 0;
+                        background-color: #F8E8D7;
+                        padding: 8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 12px;
+                        border-radius: 16px;
+
+                        img {
+                            width: 72px;
+                        }
+
+                        h3,
+                        p {
+                            font-size: 12px;
+                        }
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .header-right-content {
+                        padding-left: 0;
+                        border: none;
+                        width: 100%;
+
+                        .grid-container {
+                            margin-top: 35px;
+
+                            .grid-row {
+                                display: flex !important;
+                                flex-direction: column;
+                                text-align: center;
+
+                                .grid-item {
+                                    h3 {
+                                        font-size: 32px;
+                                        line-height: 48px;
+                                    }
+
+                                    ul {
+                                        display: none;
+                                    }
+
+                                    .top-nav-sub-menu-active {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+
+                        .header-bottom-content {
+                            flex-direction: column;
+                            border-radius: 16px;
+
+                            .bottom-content {
+                                padding: 0;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
